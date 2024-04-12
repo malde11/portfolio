@@ -3,8 +3,19 @@
   padding: 100px 0;
   &-logo{
     margin-bottom: 50px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    text-decoration: none;
     @include mobile{
       text-align: center;
+    }
+    a{
+      color: $white;
+    }
+    a:hover{
+      text-decoration: none;
     }
   }
   &-widget{
@@ -78,16 +89,4 @@
       }
     }
   }
-}
-
-.brand-logo-footer {
-  color: #fff;
-  font-size: 24px;
-  font-weight: 600;
-  text-decoration: none;
-
-}
-
-.brand-logo-footer:hover {
-  text-decoration: none;
 }
