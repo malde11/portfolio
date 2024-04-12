@@ -4,7 +4,7 @@ date: 2019-12-23T15:58:10+06:00
 type: portfolio
 image: "images/projects/project-thumb-one.jpg"
 category: ["Brands"]
-project_images: ["images/projects/logos/inexorablez-01.jpg", "images/projects/logos/inexorablez-02.jpg", "images/projects/logos/inexorablez-03.jpg", "fh-flensburg-game-design.jpg"]
+project_images: ["images/projects/logos/inexorablez-01.jpg", "images/projects/logos/inexorablez-02.jpg", "images/projects/logos/inexorablez-03.jpg", "images/projects/logos/fh-flensburg-game-design.jpg", "images/projects/logos/christian-s.jpg", "images/projects/logos/superior-attack-02.jpg", "images/projects/logos/superior-attack-01.jpg", "images/projects/logos/kettenbeil-02.jpg", "images/projects/logos/kettenbeil-01.jpg", "images/projects/logos/kettenbeil-03.jpg"]
 ---
 
 The “Seamless Watch” watch has all the features that users expect in a digital watch, and some unusual features.
