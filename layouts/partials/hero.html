@@ -41,6 +41,8 @@
       <img src="{{ "images/arrow-down.svg" | absURL }}" alt="arrow-down">
     </a>
   </section>
+  {{ $video := resources.Get "js/video.js" | minify }}
+  <script src="{{ $video.Permalink }}"></script>
   {{ "<!-- Site Hero End -->" | safeHTML }}
   {{ end }}
 {{ end }}
