@@ -1,7 +1,7 @@
 {{ with .Site.Params.banner }}
   {{ if .enable }}
   {{ "<!-- Site Hero Start -->" | safeHTML }}
-  <section class="site-hero" style="background-image: url('{{ .background_image }}');">
+  <section class="site-hero">
     <div id="video-wrapper"> 
       <video autoplay muted loop id="myVideo" preload="auto"></video>
     </div>
@@ -15,7 +15,7 @@
             </h1>
             <ul class="site-hero-content-buttons">
               <li>
-                <a href="{{ .primary_button_url | absURL }}" class="btn btn-secondary">
+                <a href="{{ .primary_button_url | absURL }}" class="btn btn-secondary hero-button">
                   <span class="btn-area">
                     <span data-text="{{ .primary_button }}">
                       {{ .primary_button }}
@@ -24,7 +24,7 @@
                 </a>
               </li>
               <li>
-                <a href="{{ .secondary_button_url | absURL }}" class="btn btn-primary">
+                <a href="{{ .secondary_button_url | absURL }}" class="btn btn-primary hero-button">
                   <span class="btn-area">
                     <span data-text="{{ .secondary_button }}">
                       {{ .secondary_button }}
@@ -41,8 +41,12 @@
       <img src="{{ "images/arrow-down.svg" | absURL }}" alt="arrow-down">
     </a>
   </section>
-  {{ $video := resources.Get "js/video.js" | minify }}
-  <script src="{{ $video.Permalink }}"></script>
   {{ "<!-- Site Hero End -->" | safeHTML }}
   {{ end }}
 {{ end }}
+
+{{ define "video" }}
+  {{ $video := resources.Get "js/video.js" | minify }}
+  <script src="{{ $video.Permalink }}"></script>
+{{ end }}
+
