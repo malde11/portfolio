@@ -41,10 +41,6 @@
   {{ "<!-- Site Hero End -->" | safeHTML }}
   {{ end }}
 {{ end }}
-
-
-
-{{ define "video" }}
-  <script src="{{ "/js/video.js" | urlize | relURL }}"></script>
-{{ end }}
-
+{{- define "video" -}}
+  <script src="{{ .Site.BaseURL }}js/video.js"></script>
+{{- end -}}
