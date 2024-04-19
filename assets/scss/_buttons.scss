@@ -61,10 +61,10 @@
 }
 
 .btn-primary{
-  background: $primary-color;
+  background: #00b4ff;
   color: $white;
   &:hover{
-    background: darken($color: $primary-color, $amount: 10);
+    background: darken(#00b4ff, $amount: 10);
   }
 }
 

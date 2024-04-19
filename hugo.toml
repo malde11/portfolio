@@ -1,5 +1,5 @@
 baseURL       = "https://kettenbeil.com"
-languageCode  = "en-us"
+languageCode  = "de-DE"
 title         = "Kettenbeil | Creative Design Agency"
 theme         = "roxo-hugo"
 summarylength = 25
