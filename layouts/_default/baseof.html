@@ -3,10 +3,14 @@
     {{- partial "head.html" . -}}
     <body>
         {{- partial "header.html" . -}}
+        
         <main>
             {{- block "main" . }}{{- end }}
         </main>
         {{- partial "footer.html" . -}}
-        {{- block "home-video" . }}{{- end }}
+        
+        {{- block "video-home" . }}
+        
+        {{- end }}
     </body>
 </html>
