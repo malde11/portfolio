@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contact on Kettenbeil | Creative Design Agency</title>
-    <link>http://localhost:1313/contact/</link>
+    <link>https://kettenbeil.com/contact/</link>
     <description>Recent content in Contact on Kettenbeil | Creative Design Agency</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-DE</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/contact/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kettenbeil.com/contact/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
