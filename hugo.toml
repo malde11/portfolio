@@ -1,6 +1,6 @@
 baseURL       = "https://gleeful-youtiao-0dcb95.netlify.app"
 languageCode  = "en-us"
-title         = "Roxo | Creative Design Agency"
+title         = "Kettenbeil | Creative Design Agency"
 theme         = "roxo-hugo"
 summarylength = 25
 
