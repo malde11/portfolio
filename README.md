@@ -4,5 +4,5 @@ Hi,
 this is my portfolio website, but not ready yet.
 
 Thanks to the following:
-- StaticMania (For the Hugo theme)
-- FabForm.io (static website form)
+- [Staticmania](https://staticmania.com/contact) ([for the Hugo theme](https://github.com/StaticMania/roxo-hugo))
+- [FabForm.io](https://fabform.io/) (static website form) 
