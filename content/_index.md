@@ -1,3 +1,3 @@
 ---
-videoTest: true
+video: true
 ---
