@@ -1,3 +1,4 @@
+<div class="video">
 {{ with .Site.Params.banner }}
   {{ if .enable }}
   {{ "<!-- Site Hero Start -->" | safeHTML }}
@@ -41,3 +42,6 @@
   {{ "<!-- Site Hero End -->" | safeHTML }}
   {{ end }} 
 {{ end }}
+</div>
+
+{{ .Page.Store.Set "video" true }}

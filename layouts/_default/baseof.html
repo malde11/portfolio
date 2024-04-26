@@ -7,5 +7,12 @@
             {{- block "main" . }}{{- end }}
         </main>
         {{- partial "footer.html" . -}}
+
+        {{ if .Store.Get "video" }}
+            {{ with resources.Get "js/video.js" | minify }}
+                <script src="{{ .RelPermalink }}"></script>
+            {{ end }}   
+        {{ end }}
+
     </body>
 </html>
