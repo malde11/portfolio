@@ -110,6 +110,7 @@
 <script src="{{ $script.Permalink }}"></script>
 
 
-<!-- video.js -->
-{{ $video := resources.Get "js/video.js" | minify }}
-<script src="{{ $video.Permalink }}"></script>
+<!-- video.js
+{{ if .Store.Get "hasMermaid" }}
+  <script src="js/video.js"></script>
+{{ end }} -->
