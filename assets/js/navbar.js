@@ -5,9 +5,9 @@ $(document).ready(function() {
     $(window).on('scroll', function () {
         var windscroll = $(window).scrollTop();
         if (windscroll >= 100) {
-          $('.site-navigation').addClass('nav-bg');
+          $('.site-navigation').css('background', 'black');
           $('#logo-icon').attr('src', 'images/favicon.png');
-          $('.navbar-brand').css('color', 'black');
+          $('.navbar-brand').css('color', 'white');
           $('.nav-link').css('color', 'black');
       
           $(".nav-link").mouseover(function() {
@@ -17,7 +17,7 @@ $(document).ready(function() {
           });
         
         } else {
-          $('.site-navigation').removeClass('nav-bg');
+          $('.site-navigation').css('background', 'black');
           $('#logo-icon').attr('src', 'images/logo.png');
           $('.navbar-brand').css('color', 'white');
           $('.nav-link').css('color', 'white');
