@@ -14,5 +14,11 @@
             {{ end }}   
         {{ end }}
 
+        {{ if .Store.Get "navbar-home" }}
+            {{ with resources.Get "js/navbar.js" | minify }}
+                <script src="{{ .RelPermalink }}"></script>
+            {{ end }}   
+        {{ end }}
+
     </body>
 </html>
