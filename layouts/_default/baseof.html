@@ -7,18 +7,17 @@
             {{- block "main" . }}{{- end }}
         </main>
         {{- partial "footer.html" . -}}
-
-        {{ if .Store.Get "video" }}
-            {{ with resources.Get "js/video.js" | minify }}
-                <script src="{{ .RelPermalink }}"></script>
-            {{ end }}   
-        {{ end }}
-
-        {{ if .Store.Get "navbar-home" }}
-            {{ with resources.Get "js/navbar.js" | minify }}
-                <script src="{{ .RelPermalink }}"></script>
-            {{ end }}   
-        {{ end }}
-
     </body>
 </html>
+
+{{ if .Store.Get "videotest" }}
+    {{ with resources.Get "js/video.js" | minify }}
+        <script src="{{ .RelPermalink }}"></script>
+    {{ end }}   
+{{ end }}
+
+{{ if .Store.Get "navtest" }}
+    {{ with resources.Get "js/navbar.js" | minify }}
+        <script src="{{ .RelPermalink }}"></script>
+    {{ end }}   
+{{ end }}
