@@ -1,6 +1,8 @@
 $(document).ready(function() {
 
     "use strict";
+
+    $('.site-navigation').css('background', 'black');
     
     $(window).on('scroll', function () {
         var windscroll = $(window).scrollTop();
