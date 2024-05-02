@@ -1,6 +1,8 @@
 $(document).ready(function () {
 'use strict';
 
+/* nav */
+
     $(window).on('scroll', function () {
         var windscroll = $(window).scrollTop();
         if (windscroll >= 100) {
