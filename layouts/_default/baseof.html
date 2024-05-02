@@ -11,13 +11,13 @@
 </html>
 
 {{ if .Store.Get "videotest" }}
-    {{ with resources.Get "js/video.js" | minify }}
-        <script src="{{ .RelPermalink }}"></script>
+    {{ with resources.Get "css/home.css" | minify }}
+        <link rel="stylesheet" href="{{ .RelPermalink }}">
     {{ end }}   
 {{ end }}
 
-{{ if .Store.Get "navtest" }}
-    {{ with resources.Get "js/navbar.js" | minify }}
+{{ if .Store.Get "videotest" }}
+    {{ with resources.Get "js/home.js" | minify }}
         <script src="{{ .RelPermalink }}"></script>
     {{ end }}   
 {{ end }}
