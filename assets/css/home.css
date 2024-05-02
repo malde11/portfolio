@@ -1,5 +1,21 @@
 .site-navigation{
+    background-color: black;
+}
 
-    background: black !important;
+.site-navigation, .navbar-brand{
+    color: white;
+}
 
+#logo-icon {
+    margin-top: -6px;
+    /*content: url('/images/logo-white.png');
+*/
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: #00b4ff !important;
 }

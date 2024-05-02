@@ -16,6 +16,7 @@
     {{ end }}   
 {{ end }}
 
+
 {{ if .Store.Get "videotest" }}
     {{ with resources.Get "js/home.js" | minify }}
         <script src="{{ .RelPermalink }}"></script>

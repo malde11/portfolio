@@ -1,32 +1,18 @@
-'use strict';
-
 $(document).ready(function () {
+'use strict';
 
     $(window).on('scroll', function () {
         var windscroll = $(window).scrollTop();
         if (windscroll >= 100) {
-          $('.site-navigation').css('background', 'white');
-          $('#logo-icon').attr('src', 'images/logo.png');
+          $('.site-navigation').css('background-color', 'white');
           $('.navbar-brand').css('color', 'black');
           $('.nav-link').css('color', 'black');
-      
-          $(".nav-link").mouseover(function() {
-            $(this).css("color","#00b4ff");
-          }).mouseout(function() {
-            $(this).css("color","black");
-          });
-        
+          $('#logo-icon').attr('src', 'images/logo.png');
         } else {
-          $('.site-navigation').css('background', 'black');
-          $('#logo-icon').attr('src', 'images/logo-white.png');
+          $('.site-navigation').css('background-color', 'black'); 
           $('.navbar-brand').css('color', 'white');
           $('.nav-link').css('color', 'white');
-      
-          $(".nav-link").mouseover(function() {
-            $(this).css("color","#00b4ff");
-          }).mouseout(function() {
-            $(this).css("color","#fff");
-          });
+          $('#logo-icon').attr('src', 'images/logo-white.png');
         }
       });
 
