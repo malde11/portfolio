@@ -1,7 +1,7 @@
 $(document).ready(function () {
 'use strict';
 
-/* nav */
+/* navbar */
 
     $(window).on('scroll', function () {
         var windscroll = $(window).scrollTop();
