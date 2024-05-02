@@ -12,7 +12,7 @@
 
 {{ if .Store.Get "videotest" }}
     {{ with resources.Get "css/home.css" | minify }}
-        <link rel="stylesheet" href="{{ .RelPermalink }}">
+        <link href="{{ .RelPermalink }}">
     {{ end }}   
 {{ end }}
 
