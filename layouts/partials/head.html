@@ -27,7 +27,7 @@
   {{ "<!-- Home CSS -->" | safeHTML }}
   {{ if .IsHome }}
     {{ with resources.Get "css/home.css" | minify }}
-      <link href="{{ .RelPermalink }}">
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
     {{ end }}
   {{ end }}
 
