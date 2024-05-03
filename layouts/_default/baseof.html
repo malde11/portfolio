@@ -10,14 +10,13 @@
     </body>
 </html>
 
-{{ if .Store.Get "videotest" }}
+{{ if .Store.Get "videoblabla" }}
     {{ with resources.Get "css/home.css" | minify }}
         <link href="{{ .RelPermalink }}">
     {{ end }}   
 {{ end }}
 
-
-{{ if .Store.Get "videotest" }}
+{{ if .Store.Get "videoblabla" }}
     {{ with resources.Get "js/home.js" | minify }}
         <script src="{{ .RelPermalink }}"></script>
     {{ end }}   
