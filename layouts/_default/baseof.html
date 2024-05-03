@@ -7,12 +7,5 @@
             {{- block "main" . }}{{- end }}
         </main>
         {{- partial "footer.html" . -}}
-
-        {{ if .IsHome }}
-            {{ with resources.Get "js/home.js" | minify }}
-                <script src="{{ .RelPermalink }}"></script>
-            {{ end }}
-        {{end}}
-        
     </body>
 </html>

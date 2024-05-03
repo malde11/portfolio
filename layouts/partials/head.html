@@ -24,6 +24,7 @@
     <link href="{{ $style.Permalink }}" rel="stylesheet" />
   {{- end }}
 
+<!-- Home css -->
   {{ if .IsHome }}
     {{ with resources.Get "css/home.css" | minify }}
       <link href="{{ .RelPermalink }}">
