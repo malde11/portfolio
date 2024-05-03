@@ -110,7 +110,7 @@
 <script src="{{ $script.Permalink }}"></script>
 
 
-<!-- Home JS -->
+{{ "<!-- Home JS -->" | safeHTML }}
 {{ if .IsHome }}
   {{ with resources.Get "js/home.js" | minify }}
     <script src="{{ .RelPermalink }}"></script>
