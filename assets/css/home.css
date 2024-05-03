@@ -3,7 +3,7 @@
 }
 
 .site-navigation, .navbar-brand{
-    color: white;
+    color: white !important;
 }
 
 #logo-icon {

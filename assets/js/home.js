@@ -8,12 +8,12 @@ $(document).ready(function () {
         var windscroll = $(window).scrollTop();
         if (windscroll >= 100) {
           $('.site-navigation').css('background-color', 'white');
-          $('.navbar-brand').css('color', 'black');
+          $('.brand-logo-2').css('color', 'black');
           $('.nav-link').css('color', 'black');
           $('#logo-icon').attr('src', 'images/logo.png');
         } else {
-          $('.site-navigation').css('background-color', 'black'); 
-          $('.navbar-brand').css('color', 'white');
+          $('.site-navigation').css('background-color', 'black');
+          $('.brand-logo-2').css('color', 'white');
           $('.nav-link').css('color', 'white');
           $('#logo-icon').attr('src', 'images/logo-white.png');
         }
