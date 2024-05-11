@@ -1,9 +1,17 @@
+#logo-item {
+    content:url('images/logo-white.png') !important;
+}
+
+.brand-logo-2 {
+    color: white !important;
+}
+
 .site-navigation{
     background-color: black;
 }
 
 .site-navigation, .navbar-brand{
-    color: white !important;
+    color: white;
 }
 
 #logo-icon {
@@ -13,7 +21,7 @@
 }
 
 .nav-link {
-    color: white;
+    color: white !important;
 }
 
 .nav-link:hover {
