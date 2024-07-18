@@ -15,12 +15,9 @@ body {
 }
 
 header {
-  border-bottom: 1px solid #222;
-  margin-bottom: 1rem;
 }
 
 .navbar {
-  margin-bottom: 20px;
 }
 
 .navbar, .navbar-expand-lg {
@@ -52,13 +49,25 @@ header {
   color: rgb(0, 100, 158);
 }
 
+/*
 .nav-link active {
   color: white !important;
 }
-
+*/
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
   color: rgb(173, 173, 173);
 }
+
+#backgound-image {
+  width: 100%;
+  height: auto;
+}
+
+
+
+/********************************
+  footer
+********************************/
 
 footer {
   border-top: 1px solid #222;
