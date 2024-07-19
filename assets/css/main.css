@@ -1,11 +1,6 @@
-/***********************************************
-  Bootstrap navbar
-***********************************************/
-
-
-
 /**********************************************
-  Main css
+  Kettenbeil
+  main css
 **********************************************/
 
 body {
@@ -28,7 +23,7 @@ body {
 }
 
 .navbar, .navbar-expand-lg {
-  background-color: rgba(0, 0, 0, .1);
+  background-color: black;
 }
 
 .navbar-brand:link {
@@ -111,6 +106,7 @@ video {
   top: 50%;
   left: 1%;
   color: white;
+  z-index: 3;
 }
 
 .arrow-right {
@@ -118,12 +114,13 @@ video {
   top: 50%;
   right: 1%;
   color: white;
+  z-index: 3;
 }
 
 .arrow-box {
   position: absolute;
   bottom: 2%;
-  left: 50%;
+  left: 36%;
   text-align: center;
 }
 
@@ -133,7 +130,7 @@ video {
 
 .arrow-name {
   color: white;
-  font-size:x-large;
+  font-size:large;
   text-decoration: none;
 }
 
