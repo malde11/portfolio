@@ -106,6 +106,37 @@ video {
   justify-content: center;
 }
 
+.arrow-left {
+  position: fixed;
+  top: 50%;
+  left: 1%;
+  color: white;
+}
+
+.arrow-right {
+  position: fixed;
+  top: 50%;
+  right: 1%;
+  color: white;
+}
+
+.arrow-box {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  text-align: center;
+}
+
+.arrow-link {
+  color: white 
+}
+
+.arrow-name {
+  color: white;
+  font-size:x-large;
+  text-decoration: none;
+}
+
 
 /********************************
   footer
