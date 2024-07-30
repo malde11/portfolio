@@ -55,6 +55,12 @@ body {
   color: rgb(173, 173, 173);
 }
 
+.navbar-toggler {
+  color: rgb(0, 162, 255);
+  border: solid rgb(0, 162, 255);
+  background-image: url(image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'><path stroke='rgba%0, 162, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/></svg>);
+}
+
 
 /*******************************************************
   Home (Background)
