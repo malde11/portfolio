@@ -1,1 +1,0 @@
-(()=>{$(document).ready(function(){let e=$("#myVideo"),d="/videos/ground_540p.mp4",o="/videos/ground_1080p.mp4";switch(!0){case $(window).width()>=1080:e.append("<source type='video/mp4' src='"+o+"' />");break;case $(window).width()>=720:e.append("<source type='video/mp4' src='"+d+"' />");break}});})();
