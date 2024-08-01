@@ -46,6 +46,10 @@ body {
   color: rgb(0, 162, 255);
 }
 
+.brand-logo {
+  padding-bottom: 12px;
+}
+
 .nav-link {
   color: rgb(0, 162, 255);
   text-decoration: none;
