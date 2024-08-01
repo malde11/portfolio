@@ -1,9 +1,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 
+<!-- favicon -->
 <link rel="shortcut icon" type="image/png" href="/favicon.png">
 <link rel="shortcut icon" sizes="30x30" href="/favicon.png">
 <link rel="apple-touch-icon" href="/favicon.png">
+<!-- favicon end -->
 
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ partialCached "head/css.html" . }}
