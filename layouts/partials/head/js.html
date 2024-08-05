@@ -10,6 +10,12 @@
 <script src="https://kit.fontawesome.com/cb092c36d1.js" crossorigin="anonymous"></script>
 <!-- font awesome end -->
 
+<!-- preloader js start -->
+{{ $js := resources.Get "/js/preloader.js" }}
+{{ $file := $js | resources.Minify }}
+<script defer language="javascript" type="text/javascript" src="{{ $file.Permalink }}"></script>
+<!-- preloader js end -->
+
 {{- with resources.Get "js/main.js" }}
   {{- if eq hugo.Environment "development" }}
     {{- with . | js.Build }}
