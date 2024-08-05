@@ -1,11 +1,62 @@
 /**********************************************
-  Kettenbeil
-  main css
+  Kettenbeil.com
+  main.css
 **********************************************/
 
 body {
   font-family: sans-serif;
   line-height: 1.5;
+}
+
+
+/********************************************
+* Preloader
+*********************************************/
+
+.loader-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 1021;
+}
+
+.loader {
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  width: 160px;
+  height: 160px;
+  background-image: url(/images/loader_small.svg);
+  background-repeat: no-repeat;
+  z-index: 1022;
+  -webkit-animation: fadein 2s infinite;
+  /* Safari, Chrome and Opera > 12.1 */
+  /* Firefox < 16 */
+  /* Internet Explorer */
+  /* Opera < 12.1 */
+  animation: fadein 2s infinite;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+/* Firefox < 16 */
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 

@@ -4,11 +4,11 @@
 
 $(window).on("load", function(){
         
-    $(".loader-background").delay(2500).fadeOut("slow", function() {
+    $(".loader-background").fadeOut("slow", function() {
         $(this).remove();
     });
         
-    $(".loader").delay(2500).fadeOut("slow", function() {
+    $(".loader").fadeOut("slow", function() {
         $(this).remove();
     });
 
