@@ -16,6 +16,12 @@
 <script defer language="javascript" type="text/javascript" src="{{ $file.Permalink }}"></script>
 <!-- preloader js end -->
 
+<!-- arrow fade js start -->
+{{ $js := resources.Get "/js/arrows-fade-in.js" }}
+{{ $file := $js | resources.Minify }}
+<script defer language="javascript" type="text/javascript" src="{{ $file.Permalink }}"></script>
+<!-- preloader js end -->
+
 {{- with resources.Get "js/main.js" }}
   {{- if eq hugo.Environment "development" }}
     {{- with . | js.Build }}
