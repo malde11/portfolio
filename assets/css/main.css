@@ -6,6 +6,11 @@
 body {
   font-family: sans-serif;
   line-height: 1.5;
+  background-color: #f4f4f4;
+}
+
+.row {
+  background-color: #f4f4f4 !important;
 }
 
 
@@ -243,54 +248,32 @@ video {
   color: white;
   background-color: #2e3842;
   margin: 0;
-}
- /*
-.logo-text {
-  margin: 0 0;
+  padding: 10px;
 }
 
-.photo-text {
-  margin-bottom: 0px;
+.spotlight {
+  padding: 0px 0px 15px 0px;
 }
-
-.sketches-text {
-  margin: 0;
-}
-
-*/
 
 .home-paragraph {
   text-align: center;
   background-color: #2e3842;
   color: white;
   margin: 0;
-}
-
-.home-logo {
-  padding: 0;
-}
-
-.home-sketches {
-  padding: 0;
+  padding: 0 0 10px 0;
 }
 
 .home-title {
-  background-color: rgb(0, 162, 255);
   text-align: center;
-  font-size: 2rem;
-  padding: 10px;
+  font-size: 3rem;
   color: black;
-  margin-bottom: 0px;
+  background-color: #f4f4f4;
+  padding: 15px;
 }
 
-.sydney-palm-padding {
-  padding: 0;
+.col-background {
+  background-color: #f4f4f4;
 }
-
-.spotlight {
-  background-color: rgba(0, 0, 0, .075);
-}
-
 
 /********************************
   footer
@@ -299,4 +282,20 @@ video {
 footer {
   border-top: 1px solid #222;
   margin-top: 1rem;
+}
+
+
+
+/********************************
+  media Queries
+********************************/
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+  
+  .col-background {
+    background-color: #2e3842;
+  }
+
 }
