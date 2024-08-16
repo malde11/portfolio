@@ -1,4 +1,4 @@
 +++
-title = 'Test 1337'
+title = 'Home'
 draft = false
 +++

@@ -1,4 +1,5 @@
 +++
-title = 'Test 1337'
+title = 'Startseite'
+slug = 'Startseite'
 draft = false
 +++

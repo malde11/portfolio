@@ -1,8 +1,10 @@
 baseURL         = 'https://kettenbeil.com/'
-languageCode    = 'de-DE'
 title           = 'Kettenbeil'
 
 defaultContentLanguage = 'de'
+defaultContentLanguageInSubdir = true
+
+
 
 [languages]
   [languages.de]
@@ -16,23 +18,27 @@ defaultContentLanguage = 'de'
         name = 'Startseite'
         pageRef = '/'
         weight = 10
-
       [[languages.de.menus.main]]
+        name = 'Logos'
+        pageRef = '/logos'
+        weight = 20
+        [[languages.de.menus.main]]
+        name = 'Sketches'
+        pageRef = '/sketches'
+        weight = 30
+        [[languages.de.menus.main]]
         name = 'Fotos'
         pageRef = '/photos'
-        weight = 20
-
+        weight = 40
         [[languages.de.menus.main]]
-        name = 'Üeber uns'
-        pageRef = '/about'
-        weight = 30
-
+        name = 'Tutorials'
+        pageRef = '/tutorials'
+        weight = 50
         [[languages.de.menus.main]]
         name = 'Kontakt'
         pageRef = '/contact'
-        weight = 40
+        weight = 60
 
-    
   [languages.en]
     languageCode = 'en-US'
     languageName = 'English'
@@ -41,19 +47,63 @@ defaultContentLanguage = 'de'
 
     [languages.en.menus]
       [[languages.en.menus.main]]
+        name = 'Home'
+        pageRef = '/'
+        weight = 10
+      [[languages.en.menus.main]]
+        name = 'Logos'
+        pageRef = '/logos'
+        weight = 20
+    [[languages.en.menus.main]]
+        name = 'Sketches'
+        pageRef = '/sketches'
+        weight = 30
+        [[languages.en.menus.main]]
         name = 'Photos'
         pageRef = '/photos'
-        weight = 10
-
-      [[languages.en.menus.main]]
-        name = 'About'
-        pageRef = '/about'
-        weight = 20
-
-      [[languages.en.menus.main]]
+        weight = 40
+        [[languages.en.menus.main]]
+        name = 'Tutorials'
+        pageRef = '/tutorials'
+        weight = 50
+        [[languages.en.menus.main]]
         name = 'Contact'
         pageRef = '/contact'
-        weight = 30
+        weight = 60
 
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  [[menus.footer]]
+    name = 'Terms'
+    pageRef = '/terms'
+    weight = 10
+  [[menus.footer]]
+    name = 'Privacy'
+    pageRef = '/privacy'
+    weight = 20
+
+
 
