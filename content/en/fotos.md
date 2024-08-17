@@ -1,5 +1,5 @@
 +++
 title = 'Photos'
-slug = 'Photos'
+url = 'photos'
 draft = false
 +++

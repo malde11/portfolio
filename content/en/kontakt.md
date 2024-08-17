@@ -1,5 +1,5 @@
 +++
 title = 'Contact'
-slug = 'Contact'
+url = 'contact'
 draft = false
 +++
