@@ -28,7 +28,7 @@ defaultContentLanguageInSubdir = true
         weight = 30
         [[languages.de.menus.main]]
         name = 'Fotos'
-        pageRef = '/photos'
+        pageRef = '/fotos'
         weight = 40
         [[languages.de.menus.main]]
         name = 'Tutorials'
@@ -36,7 +36,7 @@ defaultContentLanguageInSubdir = true
         weight = 50
         [[languages.de.menus.main]]
         name = 'Kontakt'
-        pageRef = '/contact'
+        pageRef = '/kontakt'
         weight = 60
 
   [languages.en]
@@ -58,9 +58,9 @@ defaultContentLanguageInSubdir = true
         name = 'Sketches'
         pageRef = '/sketches'
         weight = 30
-        [[languages.en.menus.main]]
+      [[languages.en.menus.main]]
         name = 'Photos'
-        pageRef = '/photos'
+        pageRef = '/fotos'
         weight = 40
         [[languages.en.menus.main]]
         name = 'Tutorials'
@@ -68,30 +68,8 @@ defaultContentLanguageInSubdir = true
         weight = 50
         [[languages.en.menus.main]]
         name = 'Contact'
-        pageRef = '/contact'
+        pageRef = '/kontakt'
         weight = 60
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -104,6 +82,3 @@ defaultContentLanguageInSubdir = true
     name = 'Privacy'
     pageRef = '/privacy'
     weight = 20
-
-
-
