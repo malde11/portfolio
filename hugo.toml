@@ -9,7 +9,7 @@ defaultContentLanguageInSubdir = true
 [languages]
   [languages.de]
     languageCode = 'de-DE'
-    languageName = 'Deutsch'
+    languageName = 'Deutsch 🇩🇪'
     contentDir = 'content/de'
     weight = 1
 
@@ -41,7 +41,7 @@ defaultContentLanguageInSubdir = true
 
   [languages.en]
     languageCode = 'en-US'
-    languageName = 'English'
+    languageName = 'English 🇬🇧'
     contentDir = 'content/en'
     weight = 2
 

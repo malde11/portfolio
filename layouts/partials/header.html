@@ -63,13 +63,20 @@
           <ul class="navbar-nav">
             {{ range site.Menus.main }}
               <li class="nav-item">
-                <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
+                <a class="nav-link" href="{{ .URL }}">
+                  <span class="spanLeft">[</span>
+                    {{ .Name }}
+                  <span class="spanRight">]</span>
+                </a>
               </li>
               {{ end }}
-              <span style="font-size: 2rem; color: rgb(0, 162, 255);"> | </span>
               {{ range $.Site.Home.AllTranslations }}
               <li class="nav-item">
-                <a class="nav-link" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+                <a class="nav-link" href="{{ .Permalink }}">
+                  <span class="spanLeft">[</span>
+                    {{ .Language.LanguageName }}
+                  <span class="spanRight">]</span>
+                </a>
               </li>
             {{ end }}
           </ul>
