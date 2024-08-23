@@ -55,8 +55,14 @@
           <p class="home-paragraph"><i>I am not a dummy nooooooooooo</i></p>
         </div>
         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-          <a class="sydney-palm-padding" href="fotos">
+          {{ $logicalPath := "/fotos" }}
+          {{ with site.GetPage $logicalPath }}
+          <a class="sydney-palm-padding" href="{{ .RelPermalink }}">
             <img class="img-fluid" src="/images/photos/sydney-palm.png">
+          </a>
+          {{ else }}
+          {{ errorf "Unable to get page %s" $logicalPath }}
+          {{ end }}
           </a>
         </div>
         <div class="col-xl-2"></div>

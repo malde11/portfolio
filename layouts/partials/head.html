@@ -1,5 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
+<meta name="author" content="Malte Kettenbeil">
 
 <!-- favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -8,6 +9,11 @@
 <!-- favicon end -->
 
 
+<!-- wesite titel-->
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+
+<!-- add stylesheet -->
+
+
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
