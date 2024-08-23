@@ -280,7 +280,7 @@ video {
 .arrow-box {
   position: absolute;
   bottom: 2%;
-  left: 36%;
+  left: 37% !important;;
   text-align: center;
 }
 
@@ -342,6 +342,19 @@ footer {
   media Queries
 ********************************/
 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+  .arrow-box {
+    left: 44% !important;
+
+  }
+
+}
+
+
+
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
@@ -354,5 +367,29 @@ footer {
     padding: 40px;
   }
 
+
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  .navbar-nav li {
+    font-size: 1.2rem;
+  }
+
+  .arrow-box {
+    left: 47% !important;
+
+  }
+
+}
+
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+  .navbar-nav li {
+    font-size: 1.5rem;
+  }
 
 }
