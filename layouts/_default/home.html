@@ -18,20 +18,19 @@
     </div>
     <div>
         <p class="arrow-box">
-          <a class="arrow-name" href="#start">read more</a><br>
+          <a class="arrow-name" href="#start">READ MORE</a><br>
           <a class="arrow-link" href="#start"><i class="fa-solid fa-angle-down fa-3x"></i></a>
         </p>
     </div>
   </section>
 <!-- Video end -->
 
-
 <!-- logos, photos and sketches -->
- <section id="start">
+ <section>
     <div class="container-fluid">
 
       <section class="row">
-        <h1 class="home-title col-12">Some of my <b><i>works</i></b></h1>
+        <h1 id="start" class="home-title col-12">Some of my <b><i>works</i></b></h1>
       </section>
 
       <section class="row spotlight g-0">
@@ -84,5 +83,45 @@
 
     </div>
   </section>
+
+
+  <section id="contact-section">
+    <div>
+      <h2 class="contact-header">Contact</h2>
+      <hr>
+      <p class="contact-text">Don't be shy. Say <span class="contact-color">Hello</span><br>
+        Feel free to contact us.
+      </p>
+    </div>
+
+    <!-- fabform -->
+    <form id="contact-form" action="https://fabform.io/f/insert-later" method="post">
+      <div class="mb-3">
+        <input id="name" class="form-control" name="name" type="text" placeholder="First Name" required>
+      </div>
+      <div class="mb-3">
+        <input id="lastname" class="form-control" name="lastname" type="text" placeholder="Last Name" required>
+      </div>
+      <div class="mb-3">
+        <input id="email" class="form-control" name="email" type="email" placeholder="Email" required>
+      </div>
+      <div class="mb-3">
+        <select class="form-control" id="reason" name="reason" required>
+          <option value="" disabled selected value>Your Reason</option>
+          <option value="gd">Graphics Design</option>
+          <option value="wd">Web Design</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <textarea id="message" class="form-control" name="message" placeholder="your message..." rows="6" required></textarea>
+      </div>
+      <div class="d-grid gap-2">
+        <button type="button" class="btn btn-outline-success" type="button">Send</button>
+        <button type="button" class="btn btn-outline-danger" type="button">Clear</button>
+      </div>
+    </form>
+  </section>
+<!-- fabform end -->
+
 
 {{ end }}
