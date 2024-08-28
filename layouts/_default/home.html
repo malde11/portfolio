@@ -85,40 +85,42 @@
   </section>
 
 
-  <section id="contact-section">
+  <section id="contact-section" class="row">
     <div>
       <h2 class="contact-header">Don't be <b>shy</b>. <i>Say</i> <span class="contact-color"><u>Hello!</u></span></h2>
     </div>
 
     <!-- fabform -->
-    <form id="contact-form" action="https://fabform.io/f/insert-later" method="post">
-      <div class="mb-3">
-        <input id="name" class="form-control" name="name" type="text" placeholder="First Name" required>
-      </div>
-      <div class="mb-3">
-        <input id="lastname" class="form-control" name="lastname" type="text" placeholder="Last Name" required>
-      </div>
-      <div class="mb-3">
-        <input id="email" class="form-control" name="email" type="email" placeholder="Email" required>
-      </div>
-      <div class="mb-3">
-        <input id="phone" class="form-control" name="phone" type="text" placeholder="Phone Number">
-      </div>
-      <div class="mb-3">
-        <select class="form-control" id="reason" name="reason" required>
-          <option value="" disabled selected value>Your Reason</option>
-          <option value="gd">Graphics Design</option>
-          <option value="wd">Web Design</option>
-        </select>
-      </div>
-      <div class="mb-3">
-        <textarea id="message" class="form-control" name="message" placeholder="your message..." rows="6" required></textarea>
-      </div>
-      <div class="d-grid gap-2">
-        <button type="button" class="btn btn-outline-success" type="button">Send</button>
-        <button type="reset" class="btn btn-outline-danger">Clear</button>
-      </div>
-    </form>
+    <div class="col-xl-3"></div>
+      <form id="contact-form" class="col-xl-6 col-lg-8 col-md-6 col-sm-12" action="https://fabform.io/f/insert-later" method="post">
+        <div class="mb-3">
+          <input id="name" class="form-control" name="name" type="text" placeholder="First Name" required>
+        </div>
+        <div class="mb-3">
+          <input id="lastname" class="form-control" name="lastname" type="text" placeholder="Last Name" required>
+        </div>
+        <div class="mb-3">
+          <input id="email" class="form-control" name="email" type="email" placeholder="Email" required>
+        </div>
+        <div class="mb-3">
+          <input id="phone" class="form-control" name="phone" type="text" placeholder="Phone Number">
+        </div>
+        <div class="mb-3">
+          <select class="form-control" id="reason" name="reason" required>
+            <option value="" disabled selected value>Your Reason</option>
+            <option value="gd">Graphics Design</option>
+            <option value="wd">Web Design</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <textarea id="message" class="form-control" name="message" placeholder="your message..." rows="6" required></textarea>
+        </div>
+        <div class="d-grid gap-2">
+          <button type="button" class="btn btn-outline-success" type="button">Send</button>
+          <button type="reset" class="btn btn-outline-danger">Clear</button>
+        </div>
+        <div class="col-xl-3"></div>
+      </form>
   </section>
 <!-- fabform end -->
 
