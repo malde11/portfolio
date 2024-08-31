@@ -350,8 +350,8 @@ footer {
 }
 
 #contact-form {
+  background-color: white !important;
   margin: 15px;
-  background-color: white;
 }
 
 .form-control {
@@ -382,6 +382,14 @@ footer {
 
 .contact-color {
   color: rgb(0, 162, 255);
+}
+
+.button-group {
+  background-color: white !important;
+}
+
+.form-buttons {
+  margin: 0px -5px 0 10px;
 }
 
 .btn-outline-success {
@@ -416,7 +424,15 @@ footer {
   }
 
   .home-title {
-    padding: 40px;
+    padding: 75px 15px 20px 15px;
+  }
+
+  #contact-form {
+    margin: 50px;
+  }
+
+  .form-buttons {
+    margin: 15px -5px 15px 10px;
   }
 
 
