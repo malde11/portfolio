@@ -318,8 +318,21 @@ video {
 ********************************/
 
 footer {
-  border-top: 1px solid #222;
-  margin-top: 1rem;
+  margin-top: 20px;
+  background-color: black;
+}
+
+.footer-row{
+  background-color: black;
+}
+
+.footer-head {
+  color: white;
+}
+
+.footer-imprint {
+  background-color: black;
+  margin: 0 !important;
 }
 
 
@@ -328,7 +341,8 @@ footer {
 ********************************/
 
 #contact-section {
-  background-color: white; 
+  background-color: white;
+  margin-bottom: 25px;
 }
 
 #contact-form {
@@ -440,11 +454,11 @@ footer {
   }
 
   .form-buttons {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .form-control {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
 
