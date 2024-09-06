@@ -327,6 +327,15 @@ footer {
   background-color: black !important;
 }
 
+.footer-logo {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.footer-links {
+
+}
+
 .footer-head {
   color: white;
 }
