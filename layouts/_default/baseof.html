@@ -3,7 +3,7 @@
 <head>
   {{ partial "head.html" . }}
 </head>
-<body>
+<body class="container-fluid">
 
   <!-- preloader -->
   {{ partial "preloader.html" . }}
@@ -20,13 +20,13 @@
   <!-- arrows end -->
 
   <!-- main start -->
-  <main>
+  <main class="main-margin">
     {{ block "main" . }}{{ end }}
   </main>
   <!-- main end -->
 
   <!-- footer start -->
-  <footer>
+  <footer class="footer-margin">
     {{ partial "footer.html" . }}
   </footer>
   <!-- footer end -->

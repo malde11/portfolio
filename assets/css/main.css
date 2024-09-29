@@ -9,6 +9,14 @@ body {
   background-color: #f4f4f4;
 }
 
+.main-margin {
+  margin: 0 -12px;
+}
+
+.footer-margin {
+  margin: 0 -12px;
+}
+
 .row {
   background-color: #f4f4f4 !important;
 }
@@ -417,6 +425,11 @@ footer {
   border-color: rgb(0, 162, 255);
 }
 
+
+
+
+
+
 /********************************
   media Queries
 ********************************/
@@ -430,8 +443,6 @@ footer {
   }
 
 }
-
-
 
 
 /* Medium devices (tablets, 768px and up) */
@@ -458,7 +469,7 @@ footer {
 @media (min-width: 1200px) {
 
   .navbar-nav li {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
 
   .arrow-box {
@@ -507,8 +518,13 @@ footer {
     background-image: url(/images/loader.svg);
   }
 
+  .navbar-brand {
+    font-size: 2.5rem;
+  }
+
   .navbar-nav li {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+    margin-right: 50px;
   }
 
 }
