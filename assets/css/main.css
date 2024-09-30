@@ -208,6 +208,25 @@ a{
   color: rgb(0, 162, 255),
 }
 
+.navbar-vertical-language {
+  opacity: 0;
+  color: #7b7b7b;
+  height: 0;
+}
+
+.hr-navigation {
+  opacity: 1;
+  color: white;
+  margin-top: 18px;
+  margin-left: -36px;
+
+}
+
+.language-item {
+    margin-bottom: 10px;
+    margin-top: -24px;
+}
+
 
 /*******************************************************
   Home (Background)
@@ -510,6 +529,22 @@ footer {
     background-color: rgb(0, 162, 255);
     color: white;
     border-color: rgb(0, 162, 255);
+  }
+
+  .navbar-vertical-language {
+    opacity: 1;
+    height: auto;
+    
+  }
+  
+  .language-item {
+    padding-left: 32px;
+    margin-bottom: 0px;
+    margin-top: 0;
+  }
+
+  .hr-navigation {
+    margin-left: 0px;
   }
 
 }
