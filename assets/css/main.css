@@ -91,9 +91,11 @@ body {
   margin-left: 35px;
 }
 
+/*
 .navbar, .navbar-expand-lg {
-  /*background-color: rgba(0, 0, 0);*/
+  background-color: rgba(0, 0, 0);
 }
+*/
 
 .navbar-brand {
   font-size: 1.8rem;
