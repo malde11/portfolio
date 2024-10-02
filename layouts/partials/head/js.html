@@ -29,11 +29,18 @@
   {{- end }}
 {{- end }}
 
+
 <!-- navbar js start -->
-{{ $js := resources.Get "/js/navbar-active-state.js" }}
+{{ $js := resources.Get "/js/navigation.js" }}
 {{ $file := $js | resources.Minify }}
 <script defer language="javascript" type="text/javascript" src="{{ $file.Permalink }}"></script>
 <!-- navbar js end -->
+
+<!-- navbar-active js start -->
+{{ $js := resources.Get "/js/navbar-active-state.js" }}
+{{ $file := $js | resources.Minify }}
+<script defer language="javascript" type="text/javascript" src="{{ $file.Permalink }}"></script>
+<!-- navbaractive js end -->
 
 <!-- arrow fade js start -->
 {{ $js := resources.Get "/js/arrows-fade-in.js" }}

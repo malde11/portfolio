@@ -1,15 +1,18 @@
+'use strict';
+
 $( document ).ready(function() {
-    
-    console.log( "ready!" );
 
-    var pathname = window.location.pathname,
-    pages = [' ', 'logos', 'sketches', 'fotos', 'tutorials', 'kontakt'];
-    pagesen = [' ', 'logos', 'sketches', 'photos', 'tutorials', 'contact'];
+console.log("active-nav");
 
-    $('.nav-link').each(function(i) {
-        if (pathname.includes(pages[i]) || pathname.includes(pagesen[i])) $(this).addClass('active');
-        else if (this.className.includes('active')) $(this).removeClass('active'); 
-    });
+const pathname = window.location.pathname;
+
+const pages = [' ', 'logos', 'sketches', 'fotos', 'tutorials', 'kontakt'];
+const pagesen = [' ', 'logos', 'sketches', 'photos', 'tutorials', 'contact'];
+
+$('.nav-link').each(function(i) {
+    if (pathname.includes(pages[i]) || pathname.includes(pagesen[i])) $(this).addClass('active');
+    else if (this.className.includes('active')) $(this).removeClass('active');
+});
 
 });
 
