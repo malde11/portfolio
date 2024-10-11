@@ -10,7 +10,7 @@ function scrollFunction() {
   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
     $(".navbar").css("background-color", "black");
   } else {
-    $(".navbar-brand").css("background-color", "black");
+    $(".navbar").css("background-color", "black");
   }
 
 }

@@ -571,13 +571,36 @@ footer {
     background-image: url(/images/loader.svg);
   }
 
-  .navbar-brand {
-    font-size: 1.5rem;
-  }
-
   .navbar-nav li {
-    font-size: 1.5rem;
     margin-right: 50px;
   }
 
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 3000px) {
+
+  .navbar-nav li {
+    font-size: 3.0rem;
+  }
+
+  .brand-logo {
+   width: 60px; 
+  }
+
+  .navbar-brand {
+    font-size: 3.0rem;
+  }
+
+  .arrow-name {
+    font-size: xx-large;
+  }
+
+  .arrow-left {
+    font-size: 50px;
+  }
+
+  .arrow-right {
+    font-size: 50px;
+  }
 }
