@@ -6,7 +6,7 @@
 body {
   font-family: sans-serif;
   line-height: 1.5;
-  background-color: #f4f4f4;
+  background-color: #f0f0f0;
 }
 
 .main-margin {
@@ -19,7 +19,7 @@ body {
 }
 
 .row {
-  background-color: #f4f4f4 !important;
+  background-color: #f0f0f0 !important;
 }
 
 
@@ -339,7 +339,7 @@ video {
   text-align: center;
   font-size: 3rem;
   color: black;
-  background-color: #f4f4f4;
+  background-color: #f0f0f0;
   padding: 75px 15px 10px 15px;
 }
 
@@ -404,7 +404,7 @@ footer {
 ********************************/
 
 #contact-section {
-  background-color: white;
+  background-color: #f0f0f0;
 }
 
 #contact-form {
