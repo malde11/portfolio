@@ -72,13 +72,20 @@ defaultContentLanguageInSubdir = true
         weight = 60
 
 
-
-
+[menus]
   [[menus.footer]]
-    name = 'Terms'
-    pageRef = '/terms'
+    name = 'Stackoverflow'
+    url = 'https://stackoverflow.com'
     weight = 10
   [[menus.footer]]
-    name = 'Privacy'
-    pageRef = '/privacy'
+    name = 'github'
+    url = 'https://github.com'
     weight = 20
+  [[menus.footer]]
+    name = 'youtube'
+    url = 'https://youtube.com'
+    weight = 30
+  [[menus.footer]]
+    name = 'FreeCodeCamp'
+    url = 'https://freecodecamp.com'
+    weight = 40

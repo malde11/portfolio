@@ -30,9 +30,14 @@
           <p class="home-paragraph"><i>I am a dummy.. wohooooooooo</i></p>
         </div>
         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-          <a class="home-logo" href="logos">
-            <img class="img-fluid" src="/images/logos/inexorablez-01.png" alt="inexorablez-logo-01">
+          {{ $logicalPath := "/logos" }}
+          {{ with site.GetPage $logicalPath }}
+          <a class="home-logo" href="{{ .RelPermalink }}">
+            <img class="img-fluid zoom-image" src="/images/logos/inexorablez-01.png" alt="inexorablez-logo-01">
           </a>
+          {{ else }}
+          {{ errorf "Unable to get page %s" $logicalPath }}
+          {{ end }}
         </div>
         <div class="col-xl-2"></div>
       </section>
@@ -47,12 +52,11 @@
           {{ $logicalPath := "/fotos" }}
           {{ with site.GetPage $logicalPath }}
           <a class="sydney-palm-padding" href="{{ .RelPermalink }}">
-            <img class="img-fluid" src="/images/photos/sydney-palm.png">
+            <figure><img class="img-fluid zoom-image" src="/images/photos/sydney-palm.png"></figure>
           </a>
           {{ else }}
           {{ errorf "Unable to get page %s" $logicalPath }}
           {{ end }}
-          </a>
         </div>
         <div class="col-xl-2"></div>
       </section>
@@ -64,9 +68,14 @@
           <p class="home-paragraph"><i>I am a not sure dummy......</i></p>
         </div>
         <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-          <a class="home-sketches " href="sketches">
-            <img class="img-fluid" src="/images/sketches/kz.png">
+          {{ $logicalPath := "/sketches" }}
+          {{ with site.GetPage $logicalPath }}
+          <a class="home-sketches" href="{{ .RelPermalink }}">
+            <img class="img-fluid zoom-image" src="/images/sketches/kz.png">
           </a>
+          {{ else }}
+          {{ errorf "Unable to get page %s" $logicalPath }}
+          {{ end }}
         </div>
         <div class="col-xl-2"></div>
       </section>
