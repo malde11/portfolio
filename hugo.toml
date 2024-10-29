@@ -4,8 +4,6 @@ title           = 'Kettenbeil'
 defaultContentLanguage = 'de'
 defaultContentLanguageInSubdir = true
 
-
-
 [languages]
   [languages.de]
     languageCode = 'de-DE'
@@ -39,6 +37,23 @@ defaultContentLanguageInSubdir = true
         pageRef = '/kontakt'
         weight = 60
 
+    [languages.de.test]
+      [[languages.de.test.socialmedia]]
+        name = 'Stackoverflow'
+        url = 'https://stackoverflow.com'
+      [[languages.de.test.socialmedia]]
+        name = 'github'
+        url = 'https://github.com'
+      [[languages.de.test.socialmedia]]
+        name = 'youtube'
+        url = 'https://youtube.com'
+      [[languages.de.test.socialmedia]]
+        name = 'FreeCodeCamp'
+        url = 'https://freecodecamp.com'
+
+
+
+
   [languages.en]
     languageCode = 'en-US'
     languageName = 'English 🇬🇧'
@@ -71,21 +86,16 @@ defaultContentLanguageInSubdir = true
         pageRef = '/kontakt'
         weight = 60
 
-
-[menus]
-  [[menus.footer]]
-    name = 'Stackoverflow'
-    url = 'https://stackoverflow.com'
-    weight = 10
-  [[menus.footer]]
-    name = 'github'
-    url = 'https://github.com'
-    weight = 20
-  [[menus.footer]]
-    name = 'youtube'
-    url = 'https://youtube.com'
-    weight = 30
-  [[menus.footer]]
-    name = 'FreeCodeCamp'
-    url = 'https://freecodecamp.com'
-    weight = 40
+    [languages.en.test]
+      [[languages.en.test.socialmedia]]
+        name = 'Stackoverflow'
+        url = 'https://stackoverflow.com'
+      [[languages.en.test.socialmedia]]
+        name = 'github'
+        url = 'https://github.com'
+      [[languages.en.test.socialmedia]]
+        name = 'youtube'
+        url = 'https://youtube.com'
+      [[languages.en.test.socialmedia]]
+        name = 'FreeCodeCamp'
+        url = 'https://freecodecamp.com'
