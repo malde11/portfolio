@@ -37,7 +37,7 @@ defaultContentLanguageInSubdir = true
         pageRef = '/kontakt'
         weight = 60
 
-    [languages.de.test]
+    [languages.de.params]
       [[languages.de.test.socialmedia]]
         name = 'Stackoverflow'
         url = 'https://stackoverflow.com'
