@@ -52,7 +52,7 @@
           {{ $logicalPath := "/fotos" }}
           {{ with site.GetPage $logicalPath }}
           <a class="sydney-palm-padding" href="{{ .RelPermalink }}">
-            <figure><img class="img-fluid zoom-image" src="/images/photos/sydney-palm.png"></figure>
+            <figure><img class="img-fluid zoom-image" alt="Sydney Palm Tree" src="/images/photos/sydney-palm.png"></figure>
           </a>
           {{ else }}
           {{ errorf "Unable to get page %s" $logicalPath }}
@@ -71,7 +71,7 @@
           {{ $logicalPath := "/sketches" }}
           {{ with site.GetPage $logicalPath }}
           <a class="home-sketches" href="{{ .RelPermalink }}">
-            <img class="img-fluid zoom-image" src="/images/sketches/kz.png">
+            <img class="img-fluid zoom-image" alt="Sketches" src="/images/sketches/kz.png">
           </a>
           {{ else }}
           {{ errorf "Unable to get page %s" $logicalPath }}
