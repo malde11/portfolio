@@ -99,12 +99,6 @@ nav.navbar {
   margin-left: 35px;
 }
 
-/*
-.navbar, .navbar-expand-lg {
-  background-color: rgba(0, 0, 0);
-}
-*/
-
 .navbar-brand {
   font-size: 1.8rem;
   text-shadow: 10px 0px 20px rgb(0, 162, 255),
@@ -191,32 +185,17 @@ a{
   text-decoration:none;
 }
 
-.spanLeft{
-  position: absolute;
-  left:-7px;
-  opacity:0;
-  transition:0.25s;
-}
-
-.spanRight{
-  position: absolute;
-  right:-7px;
-  opacity:0;
-  transition:0.25s;
-}
-
-.nav-link:hover .spanLeft {
-  position: absolute;
+.nav-link:hover::before {
+  content: "[";
   left:-10px;
-  opacity:1;
-  color: rgb(0, 162, 255),
+  position: absolute;
+  
 }
 
-.nav-link:hover .spanRight {
-  position: absolute;
+.nav-link:hover::after {
+  content: "]";
   right:-10px;
-  opacity:1;
-  color: rgb(0, 162, 255),
+  position: absolute;
 }
 
 .navbar-vertical-language {

@@ -13,9 +13,7 @@
             {{ range site.Menus.main }}
               <li class="nav-item">
                 <a class="nav-link" href="{{ .URL }}">
-                  <span class="spanLeft">[</span>
                     {{ .Name }}
-                  <span class="spanRight">]</span>
                 </a>
               </li>
               {{ end }}
@@ -26,9 +24,7 @@
               <li><div class="navbar-vertical-language vr"></div></li>
               <li class="nav-item language-item">
                 <a class="nav-link" href="{{ .Permalink }}">
-                  <span class="spanLeft">[</span>
                     {{ .Language.LanguageName }}
-                  <span class="spanRight">]</span>
                 </a>
               </li>
             {{ end }}
