@@ -223,7 +223,7 @@ a{
 *******************************************************/
 
 #video-wrapper {
-  background: url(/images/backgrounds/background.jpg);
+  background: url(/images/backgrounds/background.webp);
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
