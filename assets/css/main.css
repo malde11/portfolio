@@ -288,11 +288,11 @@ video {
   text-align: center;
 }
 
-.arrow {
+.to-next-section {
   color: white 
 }
 
-.arrow-readmore {
+.readmore {
   color: white;
   font-size:large;
   text-decoration: none;
@@ -583,7 +583,7 @@ footer {
     font-size: 3.0rem;
   }
 
-  .arrow-name {
+  .readmore {
     font-size: xx-large;
   }
 
