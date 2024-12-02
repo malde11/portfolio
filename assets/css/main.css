@@ -209,7 +209,7 @@ a{
   color: white;
   margin-top: 18px;
   margin-left: -36px;
-
+  width: 100%;
 }
 
 .language-item {
@@ -534,7 +534,7 @@ footer {
 
   .navbar-vertical-language {
     opacity: 1;
-    height: auto;
+    height: 40px;
     
   }
   
