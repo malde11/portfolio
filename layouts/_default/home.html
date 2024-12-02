@@ -33,7 +33,7 @@
           {{ $logicalPath := "/logos" }}
           {{ with site.GetPage $logicalPath }}
           <a class="home-logo" href="{{ .RelPermalink }}">
-            <img class="img-fluid zoom-image" src="/images/logos/inexorablez-01.png" alt="inexorablez-logo-01">
+            <img class="img-fluid zoom-image" src="/images/logos/inexorablez-01.webp" alt="Link to Logos">
           </a>
           {{ else }}
           {{ errorf "Unable to get page %s" $logicalPath }}
@@ -52,7 +52,7 @@
           {{ $logicalPath := "/fotos" }}
           {{ with site.GetPage $logicalPath }}
           <a class="sydney-palm-padding" href="{{ .RelPermalink }}">
-            <figure><img class="img-fluid zoom-image" alt="Sydney Palm Tree" src="/images/photos/sydney-palm.png"></figure>
+            <figure><img class="img-fluid zoom-image" alt="Link to Photos" src="/images/photos/sydney-palm.webp"></figure>
           </a>
           {{ else }}
           {{ errorf "Unable to get page %s" $logicalPath }}
@@ -71,7 +71,7 @@
           {{ $logicalPath := "/sketches" }}
           {{ with site.GetPage $logicalPath }}
           <a class="home-sketches" href="{{ .RelPermalink }}">
-            <img class="img-fluid zoom-image" alt="Sketches" src="/images/sketches/kz.png">
+            <img class="img-fluid zoom-image" alt="Link to Sketches" src="/images/sketches/kz.webp">
           </a>
           {{ else }}
           {{ errorf "Unable to get page %s" $logicalPath }}
