@@ -288,11 +288,11 @@ video {
   text-align: center;
 }
 
-.arrow-link {
+.arrow {
   color: white 
 }
 
-.arrow-name {
+.arrow-readmore {
   color: white;
   font-size:large;
   text-decoration: none;
